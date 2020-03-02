@@ -1,0 +1,129 @@
+
+header {
+	background-color: #c2c2c2;
+	
+}
+
+
+footer {
+	background: #2ECCFA;
+	padding: 25px 0;
+}
+
+footer p a {
+	margin: 5px 5px;
+
+}
+
+/* Formatações pagina inicial */
+body, html {
+				margin: 0;
+				font: 16px "Late", sans-serif;
+				background-color: white; 
+				height: 100%;
+				
+			}
+
+			.conteudo{
+				color: #777;
+				background-color: #2ECCFA;
+				text-align: justify;
+				padding: 20px 80px;
+			}
+
+			h3{
+				text-transform: uppercase;
+				color: #111;
+				text-align: center;
+			}
+
+			p{
+				margin-bottom: 20px;
+			}
+
+			/* Configurações para dar o efeito PARALLAX */
+
+			.caixa1, .caixa2, .caixa3, .caixa4, .caixa5, .caixa6{
+				position: relative;
+				height: 100%;
+				opacity: 0.7; /*Atributo para aplicar opacidade na imagem */
+				background-repeat: no-repeat;
+				background-size: cover;
+				background-position: center;
+				background-attachment: fixed; /* Fixar a imagem no background */
+
+			}
+
+			.caixa1{
+				background-image: url(../img/resort.jpg);
+
+			}
+
+			.caixa2{
+				background-image: url(../img/resort2.jpg);
+			}
+
+			.caixa3{
+				background-image: url(../img/diversao.jpg);
+			}
+
+			.caixa4{
+				background-image: url(../img/por-do-sol.jpg);
+			}
+
+			
+			.conteudo-titulo{
+				position: absolute;
+				left: 0%;
+				top: 45%;
+				width: 100%;
+				text-align: center;
+
+			}
+
+			.conteudo-titulo span.titulo{
+				color: #fff;
+				background-color: #111;
+				padding: 18px;
+				font-size: 25px;
+				letter-spacing: 5px;
+				text-transform: uppercase;
+			}
+
+			img {
+				max-width: 100%;
+			}
+
+/* Formatações para o restante das paginas */
+
+#acomodacoes img{
+	width: 40%;
+}
+
+.diaria{
+	font-size: 1em;
+	font-style: italic;
+}
+
+.preco{
+	font-size: 1.5em;
+	font-style: italic;
+}
+
+.carousel-item img {
+	width: 600px;
+	height: 350px;
+}
+
+.descricao{
+	font-size: 0.9em;
+}
+
+.descricao1{
+	font-size: 0.8em;
+}
+
+.custo {
+	background: #CEF6F5;
+	font-size: 0.7em;
+}
